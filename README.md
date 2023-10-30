@@ -12,7 +12,11 @@ URL : https://youtu.be/K0s_Dnpn-_k
 
 
 Version 2 generada por Marc Abad
+
+
 Version 2 verficada por Ahmed Reda Makroum
+
+
 Version 2 comunicada por Joan Salvador 
 
 
