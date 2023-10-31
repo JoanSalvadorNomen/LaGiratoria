@@ -9,4 +9,3 @@ Versión 1 verificada por Marc Abad
 Versión 1 comunicada por Ahmed Reda Makroum
 
 URL : https://youtu.be/K0s_Dnpn-_k
-
