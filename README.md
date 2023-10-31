@@ -20,4 +20,3 @@ Version 2 verficada por Ahmed Reda Makroum
 Version 2 comunicada por Joan Salvador 
 
 URL: https://youtu.be/rlU7UdC9CBM
-
