@@ -15,6 +15,6 @@ Versión 2 generada por Marc Abad
 
 Versión 2 verificada por Ahmed Reda Makroum
 
-Versión 3 comunicada por Joan Salvador 
+Versión 2 comunicada por Joan Salvador 
 
 
