@@ -14,6 +14,7 @@ namespace WindowsFormsApplication1
     public partial class Form1 : Form
     {
         Socket server;
+        bool listacargada = false;
         public Form1()
         {
             InitializeComponent();
@@ -41,7 +42,6 @@ namespace WindowsFormsApplication1
                 this.BackColor = Color.Green;
                 MessageBox.Show("Conectado");
 
-
             }
             catch (SocketException ex)
             {
@@ -49,6 +49,7 @@ namespace WindowsFormsApplication1
                 MessageBox.Show("No he podido conectar con el servidor");
                 return;
             }
+
 
         }
 
@@ -79,7 +80,7 @@ namespace WindowsFormsApplication1
                 byte[] msg2 = new byte[80];
                 server.Receive(msg2);
                 mensaje = Encoding.ASCII.GetString(msg2).Split('\0')[0];
-                MessageBox.Show("Has jugado: " + mensaje + " partidas");
+                MessageBox.Show("Has jugado las partidas siguientes: " + mensaje);
 
             }
             else
@@ -94,7 +95,7 @@ namespace WindowsFormsApplication1
                 byte[] msg2 = new byte[80];
                 server.Receive(msg2);
                 mensaje = Encoding.ASCII.GetString(msg2).Split('\0')[0];
-                MessageBox.Show(mensaje);
+                MessageBox.Show("Tus ganancias son:" + mensaje);
             }
              
         
@@ -103,7 +104,7 @@ namespace WindowsFormsApplication1
         private void button3_Click(object sender, EventArgs e)
         {
             //Mensaje de desconexión
-            string mensaje = "0/";
+            string mensaje = "0/" + nombre.Text;
         
             byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
             server.Send(msg);
@@ -118,15 +119,93 @@ namespace WindowsFormsApplication1
 
         private void button4_Click(object sender, EventArgs e)
         {
+
             string mensaje = "4/" + nombre.Text + "/" + contraseña.Text;
             // Enviamos al servidor el nombre tecleado
             byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
             server.Send(msg);
 
-            //Recibimos la respuesta del servidor
             byte[] msg2 = new byte[80];
             server.Receive(msg2);
             mensaje = Encoding.ASCII.GetString(msg2).Split('\0')[0];
+
+            if (mensaje == "Si")
+                MessageBox.Show("Listo para apostar!");
+            else
+                MessageBox.Show("Contraseña incorrecta");
+        }
+        
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string mensaje = "5/";
+            byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
+            server.Send(msg);
+
+            byte[] msg2 = new byte[80];
+            server.Receive(msg2);
+            mensaje = Encoding.ASCII.GetString(msg2).Split('\0')[0];
+
+            string[] jugadores = mensaje.Split(',');
+            int jugadorantiguo = TablaUsuariosConectados.RowCount;
+            int jugadornuevo = Convert.ToInt32(jugadores[0]);
+
+
+            
+            if (listacargada == true)
+            {
+                
+                for (int i = 0; i < (jugadorantiguo - 1); i++)
+                {
+                    TablaUsuariosConectados.Rows[i].Cells[0].Value = jugadores[i + 1];
+                    TablaUsuariosConectados.Refresh();
+                }
+
+                TablaUsuariosConectados.Refresh();
+
+               
+                if (jugadornuevo < jugadorantiguo)
+                {
+                    for (int i = jugadornuevo; i < jugadorantiguo; i++)
+                    {
+                        TablaUsuariosConectados.Rows.RemoveAt(jugadornuevo);
+                        TablaUsuariosConectados.Refresh();
+                    }
+
+                    TablaUsuariosConectados.Refresh();
+                }
+
+                
+                else if (jugadornuevo > jugadorantiguo)
+                {
+                    for (int i = jugadorantiguo; i < jugadornuevo; i++)
+                    {
+                       
+                        string nombrenuevo = Convert.ToString(jugadores[i + 1]);
+
+                        
+                        TablaUsuariosConectados.Rows.Add(nombrenuevo);
+                        TablaUsuariosConectados.Refresh();
+                    }
+                }
+            }
+
+           
+            else if (listacargada == false)
+            {
+                for (int i = 1; i < (Convert.ToInt32(jugadores[0]) + 1); i++)
+                {
+                 
+                    string nombrenuevo = Convert.ToString(jugadores[i]);
+
+                    
+                    TablaUsuariosConectados.Rows.Add(nombrenuevo);
+                    TablaUsuariosConectados.Refresh();
+                    listacargada = true;
+                }
+            }
+
         }
     }
+
 }
