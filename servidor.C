@@ -23,6 +23,20 @@ typedef struct {
 	
 }ListaConectados;
 
+typedef struct {
+	
+	int num;
+	char jugador1[80];
+	char jugador2[80];
+	
+}Partida;
+
+typedef struct {
+	
+	Partida Partidas[50];
+	
+}ListaPartidas;
+ListaPartidas miListaPartidas;
 ListaConectados miLista;
 int sockets[100];
 int SocketsCreados;
@@ -114,6 +128,24 @@ void ListaActivos(ListaConectados *Lista, char ListaResultado[1000])
 	pthread_mutex_unlock(&mutex);
 }
 
+void CrearPartida(ListaPartidas *Lista, char jugador1[80], char jugador2[80])
+{
+	pthread_mutex_lock(&mutex);
+	int i;
+	
+	//Buscamos un hueco para poner una partida en nuestra tabla de partidas
+	while (Lista->Partidas[i].num != -1)
+	{
+		i++;
+	}
+	
+	//Inicializamos la partida con los nombres de los jugadores y reinicializamos el marcador
+	Lista->Partidas[i].num = i;
+	strcpy(Lista->Partidas[i].jugador1, jugador1);
+	strcpy(Lista->Partidas[i].jugador2, jugador2);
+	pthread_mutex_unlock(&mutex);
+}
+
 void *AtenderCliente (void *socket)
 {
 	int sock_conn;
@@ -125,7 +157,7 @@ void *AtenderCliente (void *socket)
 	char peticion[512];
 	char respuesta[512];
 	int ret;
-	
+	char invitado[50];
 	char consulta[512];
 	
 	MYSQL *conn;
@@ -352,6 +384,35 @@ void *AtenderCliente (void *socket)
 			printf ("Respuesta: %s\n", respuesta);
 			write (sock_conn, respuesta, strlen(respuesta));
 			
+		}
+		else if (codigo == 6){
+			
+			char peticion[50];
+			p = strtok(NULL, "/");
+			strcpy (peticion, p);
+			p = strtok(NULL, "/");
+			strcpy (invitado, p);
+			
+			int SocketInvitado = BuscarSocket(&miLista, invitado);
+			
+			if (strcmp(peticion, "ENVIAR") == 0)
+			{
+				sprintf(respuesta, "RECIBIR/%s", nombre);
+				printf("respuesta: %s\n", respuesta);
+				write(SocketInvitado, respuesta, strlen(respuesta));
+			}
+			else if (strcmp(peticion, "SI") == 0)
+			{
+				sprintf(respuesta, "SI/%s", nombre);
+				write(SocketInvitado, respuesta, strlen(respuesta));
+				CrearPartida(&miListaPartidas, invitado, nombre);
+			}
+			else if (strcmp(peticion, "NO") == 0)
+			{
+				sprintf(respuesta, "NO/%s", nombre);
+				write(SocketInvitado, respuesta, strlen(respuesta));
+			}
+		
 		}
 
 	}

@@ -160,3 +160,51 @@ C:\sistemas operativos\Proyecto del grupo 5 de Sistemas Operativos (2023-24-Q1)\
 C:\sistemas operativos\Proyecto del grupo 5 de Sistemas Operativos (2023-24-Q1)\version 3\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.CoreCompileInputs.cache
 C:\sistemas operativos\Proyecto del grupo 5 de Sistemas Operativos (2023-24-Q1)\version 3\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\sistemas operativos\Proyecto del grupo 5 de Sistemas Operativos (2023-24-Q1)\version 3\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Marc\OneDrive\Escritorio\SO\version 4\clienteLaGiratoria\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Marc\OneDrive\Escritorio\SO\version 4\clienteLaGiratoria\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Marc\OneDrive\Escritorio\SO\version 4\clienteLaGiratoria\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Marc\OneDrive\Escritorio\SO\version 4\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.AssemblyReference.cache
+C:\Users\Marc\OneDrive\Escritorio\SO\version 4\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Marc\OneDrive\Escritorio\SO\version 4\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Marc\OneDrive\Escritorio\SO\version 4\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.cache
+C:\Users\Marc\OneDrive\Escritorio\SO\version 4\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.CoreCompileInputs.cache
+C:\Users\Marc\OneDrive\Escritorio\SO\version 4\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Marc\OneDrive\Escritorio\SO\version 4\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Marc\OneDrive\Escritorio\SO\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Marc\OneDrive\Escritorio\SO\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Marc\OneDrive\Escritorio\SO\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Marc\OneDrive\Escritorio\SO\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.AssemblyReference.cache
+C:\Users\Marc\OneDrive\Escritorio\SO\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Marc\OneDrive\Escritorio\SO\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Marc\OneDrive\Escritorio\SO\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.cache
+C:\Users\Marc\OneDrive\Escritorio\SO\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.CoreCompileInputs.cache
+C:\Users\Marc\OneDrive\Escritorio\SO\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Marc\OneDrive\Escritorio\SO\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Marc\OneDrive\Escritorio\SO\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\Marc\OneDrive\Escritorio\SO\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\sistemas operativos\Proyecto del grupo 5 de Sistemas Operativos (2023-24-Q1)\Pruebas !!!!\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\sistemas operativos\Proyecto del grupo 5 de Sistemas Operativos (2023-24-Q1)\Pruebas !!!!\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\sistemas operativos\Proyecto del grupo 5 de Sistemas Operativos (2023-24-Q1)\Pruebas !!!!\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\sistemas operativos\Proyecto del grupo 5 de Sistemas Operativos (2023-24-Q1)\Pruebas !!!!\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.AssemblyReference.cache
+C:\sistemas operativos\Proyecto del grupo 5 de Sistemas Operativos (2023-24-Q1)\Pruebas !!!!\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.SuggestedBindingRedirects.cache
+C:\sistemas operativos\Proyecto del grupo 5 de Sistemas Operativos (2023-24-Q1)\Pruebas !!!!\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\sistemas operativos\Proyecto del grupo 5 de Sistemas Operativos (2023-24-Q1)\Pruebas !!!!\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\sistemas operativos\Proyecto del grupo 5 de Sistemas Operativos (2023-24-Q1)\Pruebas !!!!\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\sistemas operativos\Proyecto del grupo 5 de Sistemas Operativos (2023-24-Q1)\Pruebas !!!!\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\sistemas operativos\Proyecto del grupo 5 de Sistemas Operativos (2023-24-Q1)\Pruebas !!!!\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.cache
+C:\sistemas operativos\Proyecto del grupo 5 de Sistemas Operativos (2023-24-Q1)\Pruebas !!!!\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.CoreCompileInputs.cache
+C:\sistemas operativos\Proyecto del grupo 5 de Sistemas Operativos (2023-24-Q1)\Pruebas !!!!\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\sistemas operativos\Proyecto del grupo 5 de Sistemas Operativos (2023-24-Q1)\Pruebas !!!!\Pruebas !!!!\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\share\Version4Beta\Version4Beta\V4Beta\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.AssemblyReference.cache
+C:\share\Version4Beta\Version4Beta\V4Beta\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\share\Version4Beta\Version4Beta\V4Beta\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\share\Version4Beta\Version4Beta\V4Beta\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\share\Version4Beta\Version4Beta\V4Beta\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form5.resources
+C:\share\Version4Beta\Version4Beta\V4Beta\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\share\Version4Beta\Version4Beta\V4Beta\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.cache
+C:\share\Version4Beta\Version4Beta\V4Beta\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.CoreCompileInputs.cache
+C:\share\Version4Beta\Version4Beta\V4Beta\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\share\Version4Beta\Version4Beta\V4Beta\clienteLaGiratoria\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\share\Version4Beta\Version4Beta\V4Beta\clienteLaGiratoria\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\share\Version4Beta\Version4Beta\V4Beta\clienteLaGiratoria\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\share\Version4Beta\Version4Beta\V4Beta\clienteLaGiratoria\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
